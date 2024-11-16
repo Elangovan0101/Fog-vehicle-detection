@@ -1,0 +1,11 @@
+# dataset.yaml for YOLOv8
+
+train: C:/Users/VJ_Mahesh/OneDrive/Desktop/fog vehicle detection/datasets/images/train
+val: C:/Users/VJ_Mahesh/OneDrive/Desktop/fog vehicle detection/datasets/images/val
+test: C:/Users/VJ_Mahesh/OneDrive/Desktop/fog vehicle detection/datasets/images/test  # optional, only if using a separate test set
+
+# Total number of classes
+nc: 9
+
+# Class names corresponding to class IDs
+names: ['car', 'motorcycle', 'truck', 'bus', 'bicycle', 'person', 'train', 'plane', 'boat']
